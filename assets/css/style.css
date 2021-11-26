@@ -678,6 +678,8 @@ section {
 
 .about {
     background: #fffaf3;
+    padding: 40px;
+    /**/
 }
 
 .about .content {
@@ -852,6 +854,17 @@ section {
 # Whu Us
 --------------------------------------------------------------*/
 
+
+/**/
+
+#why-us .section-title>* {
+    color: #fff;
+}
+
+#why-us {
+    background-color: #1b1b1a;
+}
+
 .why-us .box {
     padding: 50px 30px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -863,7 +876,7 @@ section {
     display: block;
     font-size: 28px;
     font-weight: 700;
-    color: #ffcf88;
+    color: rgba(98, 245, 184, 0.8)
 }
 
 .why-us .box h4 {
@@ -871,7 +884,7 @@ section {
     font-weight: 600;
     padding: 0;
     margin: 20px 0;
-    color: #6c665c;
+    color: #ffffff;
 }
 
 .why-us .box p {
