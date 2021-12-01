@@ -32,6 +32,8 @@ h4,
 h5,
 h6 {
     font-family: 'Kings', cursive;
+    font-stretch: ultra-expanded;
+    letter-spacing: 3px;
 }
 
 
@@ -862,7 +864,27 @@ section {
 }
 
 #why-us {
-    background-color: #1b1b1a;
+    /*background: url(../img/crane-barber.png);
+    background-position: center right;
+    background-size: 700px;
+    background-repeat: no-repeat;*/
+    background-color: rgba(27, 27, 26, 0.7);
+    position: relative;
+}
+
+#why-us::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/crane-barber.png);
+    background-position: center right;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    filter: contrast(70%);
+    z-index: -100;
 }
 
 .why-us .box {
@@ -969,7 +991,7 @@ section {
     position: relative;
     z-index: 3;
     font-weight: 700;
-    color: #ff9b08;
+    color: #009664;
 }
 
 .menu .menu-content span {
@@ -991,6 +1013,18 @@ section {
 /*--------------------------------------------------------------
 # Specials
 --------------------------------------------------------------*/
+
+
+/**/
+
+#service-price {
+    width: 100px;
+    text-align: center;
+    background-color: #18d26e;
+    border-radius: 100px;
+    padding: 10px;
+    display: inline-block;
+}
 
 .specials {
     overflow: hidden;
